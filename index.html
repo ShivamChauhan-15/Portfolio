@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="port.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div>Portfolio</div>
+        <span>
+            <ul><a href="">Home</a></ul>
+            <ul><a href="#about">About</a></ul>
+            <ul><a href="#skill">Skills</a></ul>
+            <ul><a href="#MyWork">Work</a></ul>
+            <ul><a href="#contact">Contact</a></ul>
+        </span>
+    </nav>
+    <main>
+        <div class="box-left">Hii, I am Shivam Chauhan and I am a Front-end Developer<br/><br/>
+            <button>Download Resume</button>
+        </div>
+        <div class="box-right">
+            <img src="./Image/Shivam_image2.png" alt="image">
+        </div>
+        
+    </main>
+    <section id="about" class="about">
+        <img src="./Image/Shivam_image3.jpg" alt="image">
+        <div class="about-right">
+            <h1>About Me</h1><br/>
+            <p>My name is Shivam Chauhan. I am from Bijnor, UP. I currently pursuing MCA at JSS Academy Of Technical Education, Noida, with an expected graduation date of July,2024.
+            As a passionate and motivated computer science enthusiast, my career objective is to leverage my technical skills to make meaningful contributions in the world of software development and computer applications.
+            </p><br/>
+            <span>
+                <a onclick="changeCard('subcon1')">Education</a>
+                <a onclick="changeCard('subcon2')">Personal Details</a>
+                <a onclick="changeCard('subcon3')">Personal Interest</a>
+            </span>
+                <div class="con">
+                    <div id="subcon1" class="subcon" style="z-index: 1;">
+                        <div class="session">2022-current</div>
+                        <div class="content">JSS Academy Of Technical Education, Noida<br/>MCA</div><br/>
+                        <div class="session">2019-2022</div>
+                        <div class="content">Deshbandhu College, University Of Delhi <br/>Bachelor Of Science in Physical Science With Computer Science with 9.182 CGPA</div><br/>
+                        <div class="session">2018-2019</div>
+                        <div class="content">Priyanka Modern Senior Secondary School, Dhampur<br/>Intermediate with 82.6%</div>
+                        <div class="session">2017-2018</div>
+                        <div class="content">Priyanka Modern Senior Secondary School, Dhampur <br/> High School with 8.8 CGPA</div>
+                    </div>
+                <div id="subcon2" class="subcon">
+                    <div class="subcon2-heading"> Date Of Birth</div>
+                    <div class="content">:&emsp;&emsp;15/03/2002</div>
+                    <div class="subcon2-heading"> Marital Status</div>
+                    <div class="content">:&emsp;&emsp;Single</div>
+                    <div class="subcon2-heading"> Nationality</div>
+                    <div class="content">:&emsp;&emsp;Indian</div>
+                    <div class="subcon2-heading"> Religion</div>
+                    <div class="content">:&emsp;&emsp;Hindu</div>
+                    <div class="subcon2-heading"> Gender</div>
+                    <div class="content">:&emsp;&emsp;Male</div>
+                </div>
+                <div id="subcon3" class="subcon">Listening Music<br/><br/>Exploring New Places<br/><br/>Car Driving<br/><br/>Playing Cricket</div>
+            </div>
+        </div>  
+    </section >
+    <section id="skill">
+        <h1>My Skills</h1>
+        <h2>Technical Skills</h2>
+        <div class="subSkill"> C Programming <progress max="10" min="1" value="9"></progress></div>
+        <div class="subSkill"> Java <progress max="10" min="1" value="8"></progress></div>
+        <div class="subSkill"> HTML5  <progress max="10" min="1" value="8.5"></progress></div>
+        <div class="subSkill">CSS3<progress max="10" min="1" value="7.5"></progress></div>
+        <div class="subSkill">JavaScript<progress max="10" min="1" value="7"></progress></div>
+        <div class="subSkill">React.js<progress max="10" min="1" value="5"></progress></div>
+        <div class="subSkill">Oracle<progress max="10" min="1" value="7"></progress></div>
+    </section>
+    <section id="MyWork">
+        <div class="container">
+            <h1>My Work</h1>
+            <!-- <div class="work-list"> -->
+                <span class="work">
+                    <a href="https://calculator.shivamchauhan48.repl.co/">
+                        <img src="Image/calculator.png" alt="image">
+                    </a>
+                </span>
+                <span class="work">
+                    <a href="https://tic-tac-toe-game.shivamchauhan48.repl.co/">
+                        <img src="Image/TicTacToe.png" alt="image">
+                    </a>
+                </span>
+                <span class="work">
+                    <a href="https://todolist.shivamchauhan48.repl.co/">
+                        <img src="Image/ToDoList.png" alt="image">
+                    </a>
+                </span>
+                <span class="work">
+                    <a href="https://restaurant-website.shivamchauhan48.repl.co/">
+                        <img src="Image/Restaurant.png" alt="image">
+                    </a>
+                </span>
+                <span class="work">
+                    <a href="https://mca-study-material.shivamchauhan48.repl.co/">
+                        <img src="Image/MCA Material.png" alt="image">
+                    </a>
+                </span>
+                <span class="work">
+                    <a href="https://amazon-website-clone.shivamchauhan48.repl.co/">
+                        <img src="Image/AmazonClone.png" alt="image"></a>
+                </span>
+                <!-- <span class="work">
+                    <a href=""><img src="Image/ManageContact.png" alt="image"></a>
+                </span> -->
+            <!-- </div> -->
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div class="contact-left">
+                <h1>Contact Me</h1>
+                <p>shivamchauhan332@gmail.com</p>
+                <p>8191078518</p>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" placeholder="Your Name">
+                    <input type="text" placeholder="Your Email">
+                    <textarea name="messagw" rows="6" placeholder="Message"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+</body>
+</html>
